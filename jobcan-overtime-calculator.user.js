@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Jobcan 残業時間計算
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/dragoneena12/jobcan-plugin
+// @version      1.0.0
 // @description  Jobcanの出勤簿から残業時間と月末残業予測を表示
-// @author       You
+// @author       dragoneena12
 // @match        https://ssl.jobcan.jp/employee/attendance*
 // @match        https://ssl.jobcan.jp/jbcoauth/login*
+// @updateURL    https://raw.githubusercontent.com/dragoneena12/jobcan-plugin/main/jobcan-overtime-calculator.user.js
+// @downloadURL  https://raw.githubusercontent.com/dragoneena12/jobcan-plugin/main/jobcan-overtime-calculator.user.js
 // @grant        none
 // ==/UserScript==
 

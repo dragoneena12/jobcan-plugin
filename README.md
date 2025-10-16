@@ -19,16 +19,21 @@ Jobcanの出勤簿から残業時間の分析と月末予測を表示するTampe
    - [Firefox](https://addons.mozilla.org/ja/firefox/addon/tampermonkey/)
    - [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
 
-2. スクリプトをTampermonkeyにインストール
-   - Tampermonkeyのダッシュボードを開く
-   - 「ユーティリティ」タブを選択
-   - 「URLからインストール」に以下のURLを入力
+2. スクリプトをインストール
+   - 以下のURLにアクセス
    ```
    https://raw.githubusercontent.com/dragoneena12/jobcan-plugin/main/jobcan-overtime-calculator.user.js
    ```
-   - 「インストール」をクリック
+   - Tampermonkeyのインストール画面が表示されるので「インストール」をクリック
 
 3. Jobcanの出勤簿ページにアクセス
+
+## 自動アップデート
+
+Tampermonkeyは自動的にスクリプトの更新をチェックします。手動で更新を確認する場合は：
+- Tampermonkeyのダッシュボードを開く
+- インストール済みのスクリプト一覧から「Jobcan 残業時間計算」を探す
+- 「最終更新」列のアイコンをクリックして更新を確認
 
 ## 表示内容
 
